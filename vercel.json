@@ -1,0 +1,7 @@
+[
+    {
+      "source": "/success.html",
+      "destination": "/success",
+      "permanent": true
+    }
+]
