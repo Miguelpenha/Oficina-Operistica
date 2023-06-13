@@ -19,14 +19,113 @@ body {
 
 main {
     display: flex;
-    min-height: 93.4vh
+    min-height: 93.4vh;
 }
 
-main>.logo {
-    width: 20em;
-    margin: 1em;
-    align-self: center;
+main>.parts {
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: row;
+}
+
+main>.parts>.left {
+    flex: 0.5;
+    display: flex;
+}
+
+main>.parts>.left>.logo {
+    width: 30em;
     filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+}
+
+main>.parts>.left>.title {
+    font-size: 3em;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+main>.parts>.left>.description {
+    margin-top: 2em;
+    color: #2F2F2F;
+    font-size: 1.5em;
+}
+
+main>.parts>.right {
+    flex: 0.5;
+    display: flex;
+}
+
+main>.parts>.right>.alert {
+    width: 30em;
+    padding: 1em;
+    display: flex;
+    align-self: center;
+    border-radius: 50px;
+    border: 2px solid #EAEAEA;
+}
+
+main>.parts>.right>.alert .title, .description {
+    color: #EAEAEA;
+    align-self: center;
+}
+
+main>.parts>.right>.alert>.title {
+    font-weight: bold;
+}
+
+main>.parts>.right>#form {
+    width: 70%;
+    display: flex;
+    margin-top: 2em;
+    align-self: center;
+}
+
+main>.parts>.right>#form>.title {
+    color: #FFFFFF;
+    font-size: 1.4em;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+main>.parts>.right>#form>input {
+    width: 100%;
+    border: none;
+    margin: 0.4em;
+    padding: 0.8em;
+    font-size: 1em;
+    color: #2F2F2F;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+main>.parts>.right>#form>input:focus {
+    outline: none;
+}
+
+main>.parts>.right>#form>button {
+    width: 100%;
+    border: none;
+    display: flex;
+    padding: 0.8em;
+    cursor: pointer;
+    color: #EAEAEA;
+    font-weight: bold;
+    margin-top: 0.4em;
+    font-size: 1.15em;
+    align-self: center;
+    align-items: center;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+    background-color: #F9C823;
+    transition-timing-function: linear;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+main>.parts>.right>#form>button:hover {
+    filter: brightness(0.9);
 }
 
 footer {
@@ -46,5 +145,56 @@ footer>.description {
 @media screen and (max-width: 900px) {
     body {
         background: linear-gradient(166.89deg, #F9C823 0%, #FC506E 110.14%);
+    }
+
+    main>.parts {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    main>.parts>.left>.logo {
+        width: 23em;
+        max-width: 80%;
+        margin-top: 2em;
+        align-self: center;
+    }
+
+    main>.parts>.left>.title {
+        font-size: 2em;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    main>.parts>.left>.description {
+        width: 90%;
+        font-size: 1.2em;
+        text-align: center;
+        align-self: center;
+    }
+
+    main>.parts>.right {
+        margin-top: 2em;
+    }
+
+    main>.parts>.right>.alert {
+        width: 95%;
+    }
+
+    main>.parts>.right>.alert .title, .description {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    main>.parts>.right>#form {
+        width: 85%;
+        margin-bottom: 3em;
+    }
+
+    main>.parts>.right>#form>.title {
+        font-size: 1.2em;
+    }
+
+    main>.parts>.right>#form>input {
+        padding: 0.6em;
     }
 }
