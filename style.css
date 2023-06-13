@@ -130,7 +130,7 @@ main>.parts>.right>#form>button:hover {
 
 main>.team {
     display: flex;
-    margin-top: 5em;
+    margin-top: 1em;
     align-self: center;
 }
 
@@ -264,5 +264,9 @@ footer>.description {
 
     main>.team {
         width: 100%;
+    }
+
+    main>.team>.photos>.photo {
+        padding: 0 0.6em;
     }
 }
