@@ -39,6 +39,7 @@ main>.parts>.left>.logo {
 }
 
 main>.parts>.left>.title {
+    width: 11em;
     font-size: 3em;
     color: #FFFFFF;
     font-weight: 600;
