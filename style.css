@@ -196,7 +196,12 @@ main>.team>.photos>.photo>.name {
 footer {
     padding: 1em;
     display: flex;
-    background-color: #EAEAEA;
+    background-color: #ffffff;
+}
+
+footer>img {
+    width: 45%;
+    align-self: center;
 }
 
 footer>.description {
@@ -269,5 +274,9 @@ footer>.description {
 
     main>.team>.photos>.photo {
         padding: 0 0.6em;
+    }
+
+    footer>img {
+        width: 100%;
     }
 }
