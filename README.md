@@ -1,3 +1,3 @@
 # Oficina Operística
 ### Oficina Operística
-Disponível em [https://oficina-operistica.vercel.app](https://oficina-operistica.vercel.app)
+Disponível em [https://oficinaoperistica.sonettoproducoes.com](https://oficinaoperistica.sonettoproducoes.com)

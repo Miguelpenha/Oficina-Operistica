@@ -2,4 +2,4 @@ User-Agent: *
 Disallow: /404.html
 Allow: /
 
-Sitemap: https://oficina-operistica.vercel.app/sitemap.xml
+Sitemap: https://oficinaoperistica.sonettoproducoes.com/sitemap.xml
