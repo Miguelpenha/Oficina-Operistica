@@ -286,6 +286,7 @@ footer>.description {
     }
 
     main>.parts>.right>.button {
+        width: 85%;
         margin-top: 2em;
         margin-bottom: 1em;
     }
